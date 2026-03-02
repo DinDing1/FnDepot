@@ -11,6 +11,6 @@
     "bug_report_url": "https://github.com/EWEDLCM/FnDepot/issues",
     "install_type": "系统空间",
     "size": "28.9",
-    "changelog": "支持自定义端口号，增强ws鉴权，修复已知bug（无论如何增强鉴权，不建议将端口号暴露到公网）"
+    "changelog": "注意：更新后请到官方应用商店配置应用端口号。 \n更新内容：\n支持自定义端口号，增强ws鉴权，修复已知bug（无论如何增强鉴权，不建议将端口号暴露到公网）"
   }
 }
