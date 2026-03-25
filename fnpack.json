@@ -13,7 +13,7 @@
     "size": "28.9",
     "changelog": "注意：更新后请到官方应用商店配置应用端口号。如提示无法获取更新信息则需要到官方应用商店写在官方来源版本重新安装。 \n更新内容：\n支持自定义端口号，增强ws鉴权，修复已知bug（无论如何增强鉴权，不建议将端口号暴露到公网）"
   },
-  "picoclaw": {
+  "PicoClaw": {
     "display_name": "PicoClaw",
     "platform": "all",
     "version": "0.2.4",
