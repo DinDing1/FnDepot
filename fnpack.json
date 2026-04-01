@@ -20,7 +20,7 @@
       },
       "arm": {
         "desc": "ARM架构版本",
-        "download_url": "https://github.com/DinDing1/FnDepot/blob/main/MediaHub/mediahub_arm.fpk"
+        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/main/mediahub-1.0.5-aarch64.fpk"
       }
     }
   }
