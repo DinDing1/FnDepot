@@ -3,7 +3,10 @@
     "display_name": "MediaHub",
     "desc": "媒体库管理工具，支持云盘自动整理、自动重命名、STRM文件生成、Emby 302反代、Telegram、Wechat通知等功能",
     "labels": "媒体,云盘",
-    "platform": ["x86", "arm"],
+    "platform": [
+      "x86",
+      "arm"
+    ],
     "version": "1.0.5",
     "distributor": "dinding",
     "distributor_url": "https://github.com/dinding1/",
@@ -14,11 +17,12 @@
     "arch_diff": {
       "x86": {
         "desc": "X86架构版本",
-        "download_url": "https://github.com/DinDing1/FnDepot/blob/main/MediaHub/mediahub.fpk",
+        "download_url": "https://github.com/DinDing1/FnDepot/blob/main/MediaHub/mediahub.fpk"
       },
       "arm": {
         "desc": "ARM架构版本",
-        "download_url": "https://github.com/DinDing1/FnDepot/blob/main/MediaHub/mediahub_arm.fpk",
+        "download_url": "https://github.com/DinDing1/FnDepot/blob/main/MediaHub/mediahub_arm.fpk"
       }
+    }
   }
 }
