@@ -17,13 +17,13 @@
         "version": "1.0.5",
         "size": "2.5",
         "desc": "X86架构版本",
-        "download_url": "https://example.com/example4_x86.fpk",
+        "download_url": "https://github.com/DinDing1/FnDepot/blob/main/MediaHub/mediahub.fpk",
       },
       "arm": {
         "version": "1.0.5",
         "size": "2.5",
         "desc": "ARM架构版本",
-        "download_url": "https://example.com/example4_arm.fpk",
+        "download_url": "https://github.com/DinDing1/FnDepot/blob/main/MediaHub/mediahub_arm.fpk",
       }
   }
 }
