@@ -1,31 +1,16 @@
 {
   "fntermx": {
-    "display_name": "fntermx 终端",
-    "desc": "一款支持持久化的终端应用",
-    "labels": "工具,效率",
-    "version": "1.1.2",
-    "author": "EWEDL",
+    "display_name": "mediahub",
+    "desc": "媒体库管理工具，支持云盘自动整理、自动重命名、STRM文件生成、Emby 302反代、Telegram、Wechat通知等功能",
+    "labels": "媒体,云盘",
+    "version": "1.0.5",
+    "author": "dinding",
     "author_url": "https://github.com/EWEDLCM/",
     "download_url": "",
     "isdocker": "false",
     "bug_report_url": "https://github.com/EWEDLCM/FnDepot/issues",
     "install_type": "系统空间",
-    "size": "28.9",
+    "size": "2.5",
     "changelog": "注意：更新后请到官方应用商店配置应用端口号。如提示无法获取更新信息则需要到官方应用商店卸载官方来源版本重新安装。 \n更新内容：\n支持自定义端口号，增强ws鉴权，修复已知bug（无论如何增强鉴权，不建议将端口号暴露到公网）"
-  },
-  "picoclaw": {
-    "display_name": "PicoClaw",
-    "platform": "all",
-    "version": "0.2.4",
-    "desc": "皮皮虾，超轻量级个人 AI 助手，支持多种 LLM 提供商，比小龙虾更小、更轻快、更安全",
-    "labels": "工具,AI,效率",
-    "distributor": "EWEDL",
-    "distributor_url": "https://github.com/EWEDLCM/",
-    "bug_report_url": "https://github.com/EWEDLCM/FnDepot/issues",
-    "isdocker": "false",
-    "install_type": "系统空间",
-    "size": "38",
-    "download_url": "",
-    "changelog": "更新至 0.2.4\n同步最新 PicoClaw 安装包"
   }
 }
