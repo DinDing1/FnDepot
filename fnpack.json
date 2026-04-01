@@ -16,11 +16,11 @@
     "changelog": "首次提交",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/main/mediahub-1.0.5-x86_64.fpk"
+        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/fpk-v1.0.5/mediahub.fpk"
       },
       "arm": {
         "desc": "ARM架构版本",
-        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/main/mediahub-1.0.5-aarch64.fpk"
+        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/fpk-v1.0.5/mediahub_arm.fpk"
       }
     }
   }
