@@ -16,7 +16,7 @@
     "changelog": "首次提交",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/DinDing1/FnDepot/blob/main/MediaHub/mediahub.fpk"
+        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/main/mediahub-1.0.5-x86_64.fpk"
       },
       "arm": {
         "desc": "ARM架构版本",
