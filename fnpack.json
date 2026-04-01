@@ -1,16 +1,31 @@
 {
-  "fntermx": {
-    "display_name": "mediahub",
+  "mediahub": {
+    "display_name": "MediaHub",
     "desc": "媒体库管理工具，支持云盘自动整理、自动重命名、STRM文件生成、Emby 302反代、Telegram、Wechat通知等功能",
     "labels": "媒体,云盘",
+    "platform": ["x86", "arm"],
     "version": "1.0.5",
-    "author": "dinding",
-    "author_url": "https://github.com/EWEDLCM/",
+    "distributor": "dinding",
+    "distributor_url": "https://github.com/dinding1/",
     "download_url": "",
     "isdocker": "false",
-    "bug_report_url": "https://github.com/EWEDLCM/FnDepot/issues",
-    "install_type": "系统空间",
+    "bug_report_url": "https://github.com/dinding1/FnDepot/issues",
+    "install_type": "存储空间",
     "size": "2.5",
-    "changelog": "注意：更新后请到官方应用商店配置应用端口号。如提示无法获取更新信息则需要到官方应用商店卸载官方来源版本重新安装。 \n更新内容：\n支持自定义端口号，增强ws鉴权，修复已知bug（无论如何增强鉴权，不建议将端口号暴露到公网）"
+    "changelog": "首次提交",
+    "arch_diff": {
+      "x86": {
+        "version": "1.0.5",
+        "size": "2.5",
+        "desc": "X86架构版本",
+        "download_url": "https://example.com/example4_x86.fpk",
+      },
+      "arm": {
+        "version": "1.0.5",
+        "size": "2.5",
+        "desc": "ARM架构版本",
+        "download_url": "https://example.com/example4_arm.fpk",
+      }
   }
 }
+
