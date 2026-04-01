@@ -7,7 +7,6 @@
     "version": "1.0.5",
     "distributor": "dinding",
     "distributor_url": "https://github.com/dinding1/",
-    "download_url": "",
     "isdocker": "false",
     "bug_report_url": "https://github.com/dinding1/FnDepot/issues",
     "install_type": "存储空间",
@@ -28,4 +27,3 @@
       }
   }
 }
-
