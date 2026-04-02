@@ -10,16 +10,16 @@
     "distributor": "dinding",
     "distributor_url": "https://github.com/dinding1/FnDepot",
     "bug_report_url": "https://github.com/dinding1/FnDepot/issues",
-    "labels": "媒体,云盘",
+    "labels": "工具,媒体,云盘",
     "size": "2.5",
     "install_type": "存储空间",
     "changelog": "首次提交",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/fpk-v1.0.5/mediahub.fpk"
+        "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/fpk-v1.0.5/mediahub_arm.fpk"
+        "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub_arm.fpk"
       }
     }
   }
