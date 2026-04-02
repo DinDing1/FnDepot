@@ -8,7 +8,7 @@
     "version": "1.0.5",
     "desc": "媒体库管理工具，支持云盘自动整理、自动重命名、STRM文件生成、Emby 302反代、Telegram、Wechat通知等功能",
     "distributor": "dinding",
-    "distributor_url": "https://github.com/dinding1/",
+    "distributor_url": "https://github.com/dinding1/FnDepot",
     "bug_report_url": "https://github.com/dinding1/FnDepot/issues",
     "labels": "媒体,云盘",
     "size": "2.5",
@@ -19,7 +19,6 @@
         "download_url": "https://github.com/DinDing1/FnDepot/releases/download/fpk-v1.0.5/mediahub.fpk"
       },
       "arm": {
-        "desc": "ARM架构版本",
         "download_url": "https://github.com/DinDing1/FnDepot/releases/download/fpk-v1.0.5/mediahub_arm.fpk"
       }
     }
