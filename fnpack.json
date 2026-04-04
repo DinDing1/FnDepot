@@ -8,7 +8,7 @@
     "version": "1.0.5",
     "desc": "媒体库管理工具，支持云盘自动整理、自动重命名、STRM文件生成、Emby 302反代、Telegram、Wechat通知等功能",
     "distributor": "dinding",
-    "distributor_url": "https://github.com/dinding1/FnDepot",
+    "distributor_url": "https://github.com/DinDing1/FnDepot/tree/main/MediaHub",
     "bug_report_url": "https://github.com/dinding1/FnDepot/issues",
     "labels": "工具,媒体,云盘",
     "size": "2.5",
