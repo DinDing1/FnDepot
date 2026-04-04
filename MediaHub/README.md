@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/SQLite-better--sqlite3-003B57?style=flat-square" alt="SQLite" />
   <img src="https://img.shields.io/badge/Node--Cron-Scheduler-6C43E0?style=flat-square" alt="node-cron" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT License" />
   <img src="https://img.shields.io/badge/FnOS-FPK_Supported-4F46E5?style=flat-square" alt="FnOS FPK" />
 </p>
 
