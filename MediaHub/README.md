@@ -1,8 +1,8 @@
 # MediaHub
 
 <p align="center">
-  <strong>为你的 Emby 与 115 云盘打造的一站式媒体管理面板</strong><br/>
-  一个围绕家庭影音库、媒体自动化整理与消息通知打造的可视化控制台。
+  <strong>面向 Emby、115 云盘与飞牛 NAS 生态的一站式媒体管理面板</strong><br/>
+  把媒体库整理、任务自动化、Webhook 与消息通知集中到一个更顺手的控制台里。
 </p>
 
 <p align="center">
@@ -11,45 +11,51 @@
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/SQLite-better--sqlite3-003B57?style=flat-square" alt="SQLite" />
   <img src="https://img.shields.io/badge/Node--Cron-Scheduler-6C43E0?style=flat-square" alt="node-cron" />
+  <img src="https://img.shields.io/badge/FnOS-FPK_Supported-4F46E5?style=flat-square" alt="FnOS FPK" />
+</p>
+
+<p align="center">
+  <sub>支持独立部署，也支持按飞牛 NAS 应用流程构建 FPK 包进行分发。</sub>
 </p>
 
 ---
 
-## 产品简介
+## 功能亮点
 
-MediaHub 是一个前后端一体的媒体管理面板，聚合 **Emby 仪表盘**、**115 云盘整理**、**定时任务**、**Webhook** 与 **消息通知**，适用于家庭影音库、NAS / Homelab 与个人媒体自动化场景。
+- **媒体库总览**：集中查看 Emby 媒体库统计、最近入库、最近播放与封面内容
+- **115 智能整理**：自动识别影视信息，结合 TMDB 生成目标路径并执行整理
+- **Emby 工具集**：缺失剧集检测、重复内容分析、封面生成、Webhook 日志
+- **任务自动化**：签到、清理、自动整理统一管理，支持定时执行与手动触发
+- **通知联动**：支持 Telegram、微信与 Webhook 推送
+- **飞牛生态支持**：已接入飞牛论坛签到能力，并支持 FPK 打包发布流程
 
-## 核心能力
+## 为什么是 MediaHub
 
-- **Emby 仪表盘**：查看媒体库统计、最近入库、最近播放与封面
-- **Emby 工具集**：缺失剧集检测、剧集查重、封面生成、Webhook 日志
-- **115 云盘整理**：自动识别文件信息，结合 TMDB 生成目标路径并执行整理
-- **定时任务自动化**：签到、清理、自动整理等任务统一管理
-- **消息通知**：支持 Telegram、微信与 Webhook 相关通知能力
+MediaHub 不是单点工具集合，而是一个围绕家庭影音库场景构建的前后端一体面板。你可以在同一套界面里完成媒体库查看、115 文件整理、任务调度、Webhook 联动与通知配置，减少在多个脚本、容器和页面之间来回切换的成本。
 
 ## 界面预览
 
 <table>
   <tr>
-    <td align="center" width="50%"><strong>Dashboard</strong><br/><img src="./docs/screenshots/dashboard.png" alt="Dashboard" /></td>
-    <td align="center" width="50%"><strong>Organize</strong><br/><img src="./docs/screenshots/organize.png" alt="Organize" /></td>
+    <td align="center" width="50%"><strong>Dashboard</strong><br/><img src="./docs/screenshots/dashboard.png" alt="Dashboard" width="100%" /></td>
+    <td align="center" width="50%"><strong>Organize</strong><br/><img src="./docs/screenshots/organize.png" alt="Organize" width="100%" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>Emby Tools</strong><br/><img src="./docs/screenshots/emby-tools.png" alt="Emby Tools" /></td>
-    <td align="center"><strong>Tasks</strong><br/><img src="./docs/screenshots/tasks.png" alt="Tasks" /></td>
+    <td align="center" width="50%"><strong>Emby Tools</strong><br/><img src="./docs/screenshots/emby-tools.png" alt="Emby Tools" width="100%" /></td>
+    <td align="center" width="50%"><strong>Tasks</strong><br/><img src="./docs/screenshots/tasks.png" alt="Tasks" width="100%" /></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><strong>Settings</strong><br/><img src="./docs/screenshots/settings.png" alt="Settings" /></td>
+    <td align="center" colspan="2"><strong>Settings</strong><br/><img src="./docs/screenshots/settings.png" alt="Settings" width="100%" /></td>
   </tr>
 </table>
 
 ## 适用场景
 
-- 家庭影音库管理
-- Emby 媒体库维护
-- 115 云盘下载后自动整理
-- 需要通知与自动化任务的个人媒体系统
-- Homelab / NAS 场景下的轻量控制台
+- 家庭影音库 / NAS / Homelab 的统一控制台
+- 115 下载目录的自动归档、重命名与整理
+- Emby 媒体库的日常维护、巡检与排障
+- 需要签到、清理、通知联动的个人媒体自动化流程
+- 希望在飞牛 NAS 环境中以应用方式部署和使用的场景
 
 ## 技术栈
 
@@ -60,14 +66,8 @@ MediaHub 是一个前后端一体的媒体管理面板，聚合 **Emby 仪表盘
 - **Scheduler:** node-cron
 - **Third-party:** Emby API, 115 云盘, TMDB, Telegram, 微信 iLink Bot
 
-## 注意事项
-
-- 项目依赖多个第三方服务，请确保相关配置正确可用
-- 115 / Telegram / 微信能力依赖有效凭证或登录状态
-- 建议先在测试目录验证整理规则与命名模板，再用于正式媒体库
-
 ## License
 
-如需开源发布，请根据你的实际意图补充许可证，例如 MIT / Apache-2.0 / GPL-3.0。
+本项目采用 **MIT License**。
 
-当前仓库未检测到明确的 License 文件，因此本 README 不对授权方式做默认声明。
+你可以在 [LICENSE](./LICENSE) 查看完整授权内容。
