@@ -34,15 +34,25 @@ MediaHub 是一个前后端一体的媒体管理面板，用来把 **Emby 仪表
 
 ## 截图预览
 
-> 将下列占位替换成你的真实截图即可。
+### Dashboard
 
-```md
 ![Dashboard](./docs/screenshots/dashboard.png)
+
+### Organize
+
 ![Organize](./docs/screenshots/organize.png)
+
+### Emby Tools
+
 ![Emby Tools](./docs/screenshots/emby-tools.png)
+
+### Tasks
+
 ![Tasks](./docs/screenshots/tasks.png)
+
+### Settings
+
 ![Settings](./docs/screenshots/settings.png)
-```
 
 ## 适用场景
 
