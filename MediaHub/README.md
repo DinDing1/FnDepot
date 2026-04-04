@@ -139,6 +139,45 @@ MediaHub 支持：
 ![Settings](./docs/screenshots/settings.png)
 ```
 
+### 推荐截图目录结构
+
+```text
+docs/
+└─ screenshots/
+   ├─ dashboard.png
+   ├─ organize.png
+   ├─ emby-tools.png
+   ├─ settings.png
+   └─ mobile-dashboard.png   # 可选：移动端展示
+```
+
+### 推荐命名规范
+
+建议统一使用 **小写英文 + 连字符** 或简洁页面名，方便长期维护：
+
+- `dashboard.png`：仪表盘首页
+- `organize.png`：云盘整理页
+- `emby-tools.png`：Emby 工具集页
+- `settings.png`：参数配置页
+- `tasks.png`：定时任务页
+- `mobile-dashboard.png`：移动端首页
+
+如果后续截图变多，也可以按模块拆分：
+
+- `emby-missing.png`
+- `emby-webhook.png`
+- `organize-recognize.png`
+- `organize-result.png`
+
+### 截图建议
+
+为了让 GitHub 首页展示更整洁，建议：
+
+- 优先使用 16:9 或接近比例的桌面截图
+- 保持相同主题风格（统一浅色或统一深色）
+- 截图前隐藏敏感信息，例如 Cookie、Token、手机号、路径隐私信息
+- 首页只放 3-4 张最能体现核心能力的截图
+
 ## 适用场景
 
 MediaHub 适合这些用户：
@@ -164,90 +203,6 @@ MediaHub 采用前后端一体的单仓结构：
 
 这种结构让它既有可视化界面，也具备稳定的后端任务与本地持久化能力。
 
-## 页面一览
-
-- `/`：仪表盘
-- `/organize`：115 云盘整理
-- `/emby-tools`：Emby 工具集
-- `/tasks`：定时任务
-- `/settings`：参数配置
-
-## 快速开始
-
-### 安装依赖
-
-```bash
-npm install
-```
-
-### 启动开发环境
-
-```bash
-npm run dev
-```
-
-默认监听地址：
-
-- `http://0.0.0.0:3030`
-
-### 构建生产版本
-
-```bash
-npm run build
-```
-
-### 本地预览
-
-```bash
-npm run preview
-```
-
-### 类型检查
-
-```bash
-npm run typecheck
-```
-
-### 重建原生模块
-
-如 `better-sqlite3` 因平台或 Node 版本变化出现异常，可执行：
-
-```bash
-npm run rebuild
-```
-
-## 推荐使用流程
-
-如果你是第一次使用，建议按下面顺序进行：
-
-1. 打开 `/settings`
-2. 配置 Emby 地址与 API Key
-3. 配置 115 Cookie、保存目录、媒体库目录
-4. 按需配置 TMDB、AI 识别、Telegram、微信
-5. 返回首页检查 Emby 数据是否正常显示
-6. 进入 `/organize` 测试识别与整理流程
-7. 进入 `/tasks` 配置自动任务
-
-## 项目结构
-
-```text
-.
-├─ app.vue                     # 应用入口
-├─ layouts/                    # 全局布局
-├─ pages/                      # 页面入口
-├─ components/                 # 页面组件与布局组件
-├─ plugins/                    # 启动初始化插件
-├─ server/
-│  ├─ api/                     # 后端 API 路由
-│  ├─ utils/                   # 核心业务逻辑
-│  └─ plugins/                 # 服务端插件
-├─ types/                      # 类型定义
-├─ public/                     # 静态资源
-├─ data/                       # SQLite 数据目录
-├─ logs/                       # 日志目录
-└─ nuxt.config.ts              # Nuxt / Nitro 配置
-```
-
 ## FAQ
 
 ### 1. MediaHub 是只做前端面板吗？
@@ -270,25 +225,6 @@ npm run rebuild
 
 支持。项目内置基于 `node-cron` 的调度器，可配置多种定时任务与自动整理流程。
 
-## Roadmap
-
-> 以下是适合后续继续完善的方向。
-
-- [ ] 增加真实项目截图与演示说明
-- [ ] 增加 Docker / Docker Compose 部署文档
-- [ ] 增加环境变量与配置项文档
-- [ ] 增强 README 中各功能模块的详细说明
-- [ ] 增加常见问题与排障文档
-- [ ] 增加自动化测试与发布流程说明
-- [ ] 优化移动端展示与交互细节
-
-## 数据与日志
-
-项目运行时会在本地生成以下内容：
-
-- `data/config.db`：SQLite 配置数据库
-- `logs/app-YYYY-MM-DD.log`：运行日志
-
 ## 注意事项
 
 - 项目依赖多个第三方服务，请确保相关配置正确可用
@@ -301,4 +237,3 @@ npm run rebuild
 如需开源发布，请根据你的实际意图补充许可证，例如 MIT / Apache-2.0 / GPL-3.0。
 
 当前仓库未检测到明确的 License 文件，因此本 README 不对授权方式做默认声明。
-
