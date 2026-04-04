@@ -1,10 +1,7 @@
 # MediaHub
 
 <p align="center">
-  <strong>为你的 Emby 与 115 云盘打造的一站式媒体管理面板</strong>
-</p>
-
-<p align="center">
+  <strong>为你的 Emby 与 115 云盘打造的一站式媒体管理面板</strong><br/>
   一个围绕家庭影音库、媒体自动化整理与消息通知打造的可视化控制台。
 </p>
 
@@ -18,41 +15,33 @@
 
 ---
 
-## 简介
+## 产品简介
 
-MediaHub 是一个前后端一体的媒体管理面板，用来把 **Emby 仪表盘**、**115 云盘整理**、**定时任务**、**Webhook** 与 **消息通知** 集中到一个界面中。
+MediaHub 是一个前后端一体的媒体管理面板，聚合 **Emby 仪表盘**、**115 云盘整理**、**定时任务**、**Webhook** 与 **消息通知**，适用于家庭影音库、NAS / Homelab 与个人媒体自动化场景。
 
-它面向家庭影音库、NAS / Homelab 与个人媒体自动化场景，帮助你用更低的操作成本维护自己的媒体系统。
-
-## 功能亮点
+## 核心能力
 
 - **Emby 仪表盘**：查看媒体库统计、最近入库、最近播放与封面
 - **Emby 工具集**：缺失剧集检测、剧集查重、封面生成、Webhook 日志
 - **115 云盘整理**：自动识别文件信息，结合 TMDB 生成目标路径并执行整理
 - **定时任务自动化**：签到、清理、自动整理等任务统一管理
-- **消息通知**：支持 Telegram、微信、Webhook 相关通知能力
+- **消息通知**：支持 Telegram、微信与 Webhook 相关通知能力
 
-## 截图预览
+## 界面预览
 
-### Dashboard
-
-![Dashboard](./docs/screenshots/dashboard.png)
-
-### Organize
-
-![Organize](./docs/screenshots/organize.png)
-
-### Emby Tools
-
-![Emby Tools](./docs/screenshots/emby-tools.png)
-
-### Tasks
-
-![Tasks](./docs/screenshots/tasks.png)
-
-### Settings
-
-![Settings](./docs/screenshots/settings.png)
+<table>
+  <tr>
+    <td align="center" width="50%"><strong>Dashboard</strong><br/><img src="./docs/screenshots/dashboard.png" alt="Dashboard" /></td>
+    <td align="center" width="50%"><strong>Organize</strong><br/><img src="./docs/screenshots/organize.png" alt="Organize" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Emby Tools</strong><br/><img src="./docs/screenshots/emby-tools.png" alt="Emby Tools" /></td>
+    <td align="center"><strong>Tasks</strong><br/><img src="./docs/screenshots/tasks.png" alt="Tasks" /></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2"><strong>Settings</strong><br/><img src="./docs/screenshots/settings.png" alt="Settings" /></td>
+  </tr>
+</table>
 
 ## 适用场景
 
