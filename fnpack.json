@@ -13,7 +13,7 @@
     "labels": "工具,媒体,云盘",
     "size": "30.02",
     "install_type": "存储空间",
-    "changelog": "首次提交",
+    "changelog": "第二波更新，优化界面UI",
     "arch_diff": {
       "x86": {
         "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub.fpk"
