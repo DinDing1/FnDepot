@@ -22,5 +22,29 @@
         "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub_arm.fpk"
       }
     }
+  },
+  "One Server": {
+    "display_name": "One Server",
+    "platform": [
+      "x86",
+      "arm"
+    ],
+    "version": "1.0.4",
+    "desc": "面向 fnOS / 飞牛 NAS 的 MacOS 风格 SSH 终端工具",
+    "distributor": "叮叮咣咣",
+    "distributor_url": "https://github.com/DinDing1/FnDepot/tree/main/One%20Server",
+    "bug_report_url": "https://github.com/dinding1/FnDepot/issues",
+    "labels": "工具",
+    "size": "1.8",
+    "install_type": "存储空间",
+    "changelog": "首次上架",
+    "arch_diff": {
+      "x86": {
+        "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub.fpk"
+      },
+      "arm": {
+        "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub_arm.fpk"
+      }
+    }
   }
 }
