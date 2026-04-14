@@ -40,10 +40,10 @@
     "changelog": "首次上架",
     "arch_diff": {
       "x86": {
-        "download_url": ""
+        "download_url": "https://github.com/DinDing1/FnDepot/raw/refs/heads/main/One%20Server/OneServer.fpk"
       },
       "arm": {
-        "download_url": ""
+        "download_url": "https://github.com/DinDing1/FnDepot/raw/refs/heads/main/One%20Server/OneServer_arm.fpk"
       }
     }
   }
