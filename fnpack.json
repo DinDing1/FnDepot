@@ -40,10 +40,10 @@
     "changelog": "首次上架",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub.fpk"
+        "download_url": ""
       },
       "arm": {
-        "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub_arm.fpk"
+        "download_url": ""
       }
     }
   }
