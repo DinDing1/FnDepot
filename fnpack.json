@@ -40,10 +40,10 @@
     "changelog": "添加了一些新功能",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/DinDing1/FnDepot/raw/refs/heads/main/One%20Server/OneServer.fpk"
+        "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/DinDing1/FnDepot/raw/refs/heads/main/One%20Server/OneServer_arm.fpk"
+        "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub.fpk"
       }
     }
   }
