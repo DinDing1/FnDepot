@@ -40,10 +40,10 @@
     "changelog": "添加了Sftp",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/OneServer-v1.0.9/OneServer-v1.0.9-arm.fpk"
+        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/OneServer-v1.0.9/OneServer-v1.0.9-x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/OneServer-v1.0.9/OneServer-v1.0.9-x86.fpk"
+        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/OneServer-v1.0.9/OneServer-v1.0.9-arm.fpk"
       }
     }
   }
