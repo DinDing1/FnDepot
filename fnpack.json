@@ -29,7 +29,7 @@
       "x86",
       "arm"
     ],
-    "version": "1.0.8",
+    "version": "1.0.9",
     "desc": "一个同时适配桌面端、手机端、fnOS iframe的轻量SSH管理与终端应用；聚焦 好看、好用、好维护的NAS端SSH体验",
     "distributor": "叮叮咣咣",
     "distributor_url": "https://github.com/DinDing1/FnDepot/tree/main/One%20Server",
@@ -37,13 +37,13 @@
     "labels": "工具",
     "size": "10.0",
     "install_type": "存储空间",
-    "changelog": "添加了一些新功能",
+    "changelog": "添加了Sftp",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub.fpk"
+        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/OneServer-v1.0.9/OneServer-v1.0.9-arm.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/DinDing1/Fndepot/releases/latest/download/mediahub.fpk"
+        "download_url": "https://github.com/DinDing1/FnDepot/releases/download/OneServer-v1.0.9/OneServer-v1.0.9-x86.fpk"
       }
     }
   }
